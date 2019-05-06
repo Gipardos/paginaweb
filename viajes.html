@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Buscador</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+      
+        <nav>
+            <div class="logo">
+              <h2>Busqueda de Viajes</h2>
+            </div>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="viajes.html">Viajes</a></li>
+            </ul>
+          </nav>
+       
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+      
+          <script src="apps.js"> </script>
+       
+       
+
+        <div class="col-md-12">            
+            <div class="table-responsive">
+              <table id="taula" class="table table-info table-bordered table-striped">
+                <thead>
+                  <!-- http://www.htmlquick.com/es/tutorials/tables.html#header-cells -->
+                  <tr class="text-black bg-success">
+                    <th scope="col"  width="200px" height="20px">Numero</th>
+                    <th scope="col"  width="200px" height="20px">Nombre</th>
+                    <th scope="col"  height="20px">Email <br>     </th>
+                    <th scope="col"  width="200px" height="20px" >Destino</th>
+                    <th scope="col"   width="400px"height="20px">Preferencia</th>
+                    <th scope="col" width="80px" height="20px">Adultos</th>
+                    <th scope="col" width="80px" height="20px">Niños</th>
+                    <th scope="col" width="80px" height="20px">Noches</th>
+                  </tr>
+                </thead>
+                <tbody id="tabla-datos">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Gustavo</td>
+                        <td>ola@hotmail.com</td>
+                        <td>China</td>
+                        <td>Hotel</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>P. Schuster</td>
+                        <td>oli@hotmail.com</td>
+                        <td>EEUU</td>
+                        <td>Resort</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+              </table>
+
+
+            </div>             
+          </div>
+
+
+
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

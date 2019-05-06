@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contacto</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body>
+        <br>
+        <br>
+        
+        <nav>
+          <div class="logo">
+            <h2>Contacto</h2>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="viajes.html">Viajes</a></li>
+          </ul>
+        </nav>
+     
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+    
+        <script src="apps.js"> </script>
+
+        <div class="formulario">
+
+                <div class="box">
+                        <div class="left">
+                            <div class="content">
+                                <br>
+                                <br>
+                                
+                                <h1>Le enviaremos la informacion de su Viaje </h1>
+                                
+                                <h3>Su informacion puede ser utilizada para un concurso de un viaje</h3>
+                                <h4>Info de la empresa:
+                                </h4>
+                                <h4>Correo: Agenciaviajes@viaja.cl</h4>
+                                <h4>Fono: (42)4242245423</h4>
+                                <h4>Ejecutivo: Gustavo Pardo</h4>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="content" >
+                              <div class="tab-pane show active">
+                                  <form  class="formuu">
+                                      <div class="form-row">
+                                        <div class=" form-group col-md-6">
+                                          <label for="nombre">Nombre</label>
+                                          <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ej: Pedro">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                          <label for="email">Email</label>
+                                          <input type="email"  class="form-control" name="email" id="email" placeholder="fulanito@hotmail.com">
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="destino">Destino</label>
+                                        <input type="text"  class="form-control" name="destino" id="destino" placeholder="Ej: Hong Kong">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="preferencia">Preferencia</label>
+                                        <input type="text"  class="form-control" name="preferencia" id="preferencia" placeholder="Hotel, Resort">
+                                      </div>
+                                      <div class="form-row">
+                                        <div class="form-group col-md-3">
+                                          <label for="adultos">Adultos</label>
+                                          <input type="number"  class="form-control" name="adultos" id="adultos" placeholder="Ej: 2">
+                                        </div>
+                                        <div class="form-row">
+                                              <div class="form-group col-md-3">
+                                                <label for="ninos">Niños</label>
+                                                <input type="number" class="form-control" name="ninos" id="ninos" placeholder="Ej: 2" >
+                                              </div>
+                                       
+                                        <div class="form-group col-md-3">
+                                          <label for="noches">Cant.Noches</label>
+                                          <input type="number"  class="form-control" name="noches" id="noches" placeholder="Ej: 10">
+                                        </div>
+                                      </div>
+                                      <!-- colocar alerta a boton de confirmacion -->
+                                      <button id="botonazo" onclick="agregar()" type="button" class="btn btn-success btn-lg">Enviar</button>
+
+                          </form>
+                              </div>
+                                   
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="fotos" class="col-md-12 centrar">
+                      <div id="carousel-1" class="carousel slide" data-ride="carousel">
+                        <!-- Indicadores -->
+                          <ol class="carousel-indicators">
+                                   <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                   <li data-target="#carousel-1" data-slide-to="1"></li>
+                                   <li data-target="#carousel-1" data-slide-to="2"></li>
+                                   
+                          </ol>
+                          <!-- Contenedor de los slide -->
+                      
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <img src="jordania.jpg" aling="top" class="img-responsive" width="600px" height="200px" >
+                              <div class="carousel-caption">
+                                
+                              </div>
+                            </div>
+                          
+                      
+                             <div class="item">
+                               <img src="tajmajal.jpg" class="img-responsive" width="600px" height="200px" >
+                               <div class="carousel-caption">
+                                
+                               </div>
+                             </div>
+                           
+                      
+                               <div class="item">
+                                 <img src="islandia.jpg" class="img-responsive" width="600px" height="200px" >
+                                 <div class="carousel-caption">
+                                   
+                                 </div>
+                               </div>
+                      
+                            
+                               
+                      </div>
+                      <!-- Controles Boton -->
+                      <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev"></a>
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                      
+                      <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next"></a>
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Siguiente</span>
+                      
+                      
+                          </div>
+                      
+                      </div>
+
+                    
+        </div>
+
+        
+       
+        
+
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+ 
+</html>
